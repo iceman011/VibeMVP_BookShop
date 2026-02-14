@@ -9,7 +9,7 @@ import { BookOpen } from 'lucide-react'
 export default function SignIn({
   searchParams,
 }: {
-  searchParams: { message?: string }
+  searchParams: { message?: string; error?: string }
 }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-indigo-50 p-4">
@@ -32,6 +32,11 @@ export default function SignIn({
             {searchParams.message && (
               <div className="mb-4 p-4 rounded-md bg-blue-50 text-blue-700 text-sm">
                 {searchParams.message}
+              </div>
+            )}
+            {searchParams.error && (
+              <div className="mb-4 p-4 rounded-md bg-red-50 text-red-700 text-sm">
+                {searchParams.error}
               </div>
             )}
 

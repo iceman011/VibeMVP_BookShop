@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/webhooks/stripe/route": "app/api/webhooks/stripe/route.js",
+  "/auth/reset-password/page": "app/auth/reset-password/page.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/books/page": "app/books/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/reader/book/[id]/page": "app/reader/book/[id]/page.js",
+  "/page": "app/page.js",
+  "/reader/page": "app/reader/page.js"
+}

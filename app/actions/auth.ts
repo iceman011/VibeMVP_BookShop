@@ -22,7 +22,7 @@ export async function signUp(formData: FormData) {
   })
 
   if (error) {
-    return { error: error.message }
+    redirect(`/auth/signup?error=${encodeURIComponent(error.message)}`)
   }
 
   revalidatePath('/auth/signin')
@@ -41,7 +41,7 @@ export async function signIn(formData: FormData) {
   })
 
   if (error) {
-    return { error: error.message }
+    redirect(`/auth/signin?error=${encodeURIComponent(error.message)}`)
   }
 
   revalidatePath('/reader')
@@ -66,10 +66,10 @@ export async function resetPassword(formData: FormData) {
   })
 
   if (error) {
-    return { error: error.message }
+    redirect(`/auth/reset-password?error=${encodeURIComponent(error.message)}`)
   }
 
-  return { success: 'Check your email for the password reset link' }
+  redirect('/auth/reset-password?success=Check your email for the password reset link')
 }
 
 export async function updatePassword(formData: FormData) {
@@ -82,7 +82,7 @@ export async function updatePassword(formData: FormData) {
   })
 
   if (error) {
-    return { error: error.message }
+    redirect(`/auth/update-password?error=${encodeURIComponent(error.message)}`)
   }
 
   revalidatePath('/reader')

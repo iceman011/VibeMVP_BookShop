@@ -6,7 +6,11 @@ import { Button } from '@/components/ui/button'
 import { signUp } from '@/app/actions/auth'
 import { BookOpen } from 'lucide-react'
 
-export default function SignUp() {
+export default function SignUp({
+  searchParams,
+}: {
+  searchParams: { error?: string }
+}) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-indigo-50 p-4">
       <div className="w-full max-w-md">
@@ -25,6 +29,11 @@ export default function SignUp() {
             </CardDescription>
           </CardHeader>
           <CardContent>
+            {searchParams.error && (
+              <div className="mb-4 p-4 rounded-md bg-red-50 text-red-700 text-sm">
+                {searchParams.error}
+              </div>
+            )}
             <form action={signUp} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="fullName">Full Name</Label>

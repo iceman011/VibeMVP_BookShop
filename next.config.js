@@ -8,6 +8,16 @@ const nextConfig = {
       },
     ],
   },
+  // Fix for GitHub Codespaces
+  experimental: {
+    serverActions: {
+      allowedOrigins: [
+        'localhost:3000',
+        '*.app.github.dev',
+        '*.github.dev',
+      ],
+    },
+  },
 }
 
 module.exports = nextConfig

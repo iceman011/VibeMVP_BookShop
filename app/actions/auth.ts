@@ -22,6 +22,12 @@ export async function signUp(formData: FormData) {
   })
 
   if (error) {
+    // Log full error details
+    console.error('Full signup error:', {
+      message: error.message,
+      status: error.status,
+      name: error.name,
+    })
     redirect(`/auth/signup?error=${encodeURIComponent(error.message)}`)
   }
 
@@ -41,6 +47,12 @@ export async function signIn(formData: FormData) {
   })
 
   if (error) {
+    // Log full error details
+    console.error('Full Signin error:', {
+      message: error.message,
+      status: error.status,
+      name: error.name,
+    })
     redirect(`/auth/signin?error=${encodeURIComponent(error.message)}`)
   }
 
@@ -66,6 +78,12 @@ export async function resetPassword(formData: FormData) {
   })
 
   if (error) {
+    // Log full error details
+    console.error('Full resetPass error:', {
+      message: error.message,
+      status: error.status,
+      name: error.name,
+    })
     redirect(`/auth/reset-password?error=${encodeURIComponent(error.message)}`)
   }
 
@@ -82,6 +100,12 @@ export async function updatePassword(formData: FormData) {
   })
 
   if (error) {
+    // Log full error details
+    console.error('Full updatePass error:', {
+      message: error.message,
+      status: error.status,
+      name: error.name,      
+    })
     redirect(`/auth/update-password?error=${encodeURIComponent(error.message)}`)
   }
 

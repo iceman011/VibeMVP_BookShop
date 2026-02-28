@@ -14,10 +14,11 @@ export default async function BookReaderPage({
 }) {
   const user = await getUser()
   const profile = await getProfile()
-
+/*
   if (!user || !profile?.has_access) {
     redirect('/pricing')
   }
+*/
 
   const supabase = await createServerSupabaseClient()
 

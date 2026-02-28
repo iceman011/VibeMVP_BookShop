@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { createServerSupabaseClient, getUser, getProfile } from '@/lib/supabase'
 import { signOut } from '@/app/actions/auth'
-import { BookOpen, LogOut, Clock } from 'lucide-react'
+import { BookOpen, LogOut, Sparkles } from 'lucide-react'
 
 export default async function ReaderPage() {
   const user = await getUser()
@@ -46,6 +46,12 @@ export default async function ReaderPage() {
             <span className="text-sm text-gray-600">
               {profile.full_name || profile.email}
             </span>
+            <Link href="/reader/ai-tools">
+              <Button variant="outline" size="sm">
+                <Sparkles className="w-4 h-4 mr-2" />
+                AI Tools
+              </Button>
+            </Link>
             <form action={signOut}>
               <Button variant="ghost" size="sm">
                 <LogOut className="w-4 h-4 mr-2" />
@@ -90,9 +96,20 @@ export default async function ReaderPage() {
                           />
                         </div>
                       </div>
-                      <Link href={`/reader/book/${item.book_id}`}>
-                        <Button className="w-full">Continue Reading</Button>
-                      </Link>
+                      <div className="space-y-2">
+                        <Link href={`/reader/book/${item.book_id}`}>
+                          <Button className="w-full">Continue Reading</Button>
+                        </Link>
+                        <Link href={{ 
+                              pathname: `/reader/ai-summary/${item.book_id}`,
+                              query: { title: item.books?.title } // Auto-encoded by Next.js
+                            }} >
+                          <Button className="w-full" variant="ghost" size="sm">
+                            <Sparkles className="w-4 h-4 mr-2" />
+                            AI Analysis
+                          </Button>
+                        </Link>
+                      </div>
                     </CardContent>
                   </Card>
                 ))}
@@ -118,11 +135,19 @@ export default async function ReaderPage() {
                       <p className="text-sm text-gray-600 mb-4 line-clamp-3">
                         {book.description}
                       </p>
-                      <Link href={`/reader/book/${book.id}`}>
-                        <Button className="w-full" variant="outline">
-                          Start Reading
-                        </Button>
-                      </Link>
+                      <div className="space-y-2">
+                        <Link href={`/reader/book/${book.id}`}>
+                          <Button className="w-full" variant="outline">
+                            Start Reading
+                          </Button>
+                        </Link>
+                        <Link href={`/reader/ai-tools/${book.id}`}>
+                          <Button className="w-full" variant="ghost" size="sm">
+                            <Sparkles className="w-4 h-4 mr-2" />
+                            AI Analysis
+                          </Button>
+                        </Link>
+                      </div>
                     </CardContent>
                   </Card>
                 ))}

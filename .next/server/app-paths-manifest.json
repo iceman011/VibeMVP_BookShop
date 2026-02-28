@@ -1,8 +1,8 @@
 {
-  "/auth/signup/page": "app/auth/signup/page.js",
+  "/page": "app/page.js",
   "/auth/signin/page": "app/auth/signin/page.js",
   "/reader/page": "app/reader/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/books/page": "app/books/page.js",
-  "/page": "app/page.js"
+  "/reader/book/[id]/page": "app/reader/book/[id]/page.js",
+  "/reader/ai-summary/[bookId]/page": "app/reader/ai-summary/[bookId]/page.js",
+  "/reader/ai-tools/page": "app/reader/ai-tools/page.js"
 }

@@ -2,73 +2,91 @@
   "node": {
     "085d59b0521076fcbb0cf5dc49481d84fc5d34f6": {
       "workers": {
-        "app/auth/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/auth/signin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/reader/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/auth/signup/page": "rsc",
         "app/auth/signin/page": "rsc",
         "app/reader/page": "rsc"
       }
     },
     "da1699eece910fac813bb7509563e4486fc42a13": {
       "workers": {
-        "app/auth/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/auth/signin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/reader/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/auth/signup/page": "rsc",
         "app/auth/signin/page": "rsc",
         "app/reader/page": "rsc"
       }
     },
     "dca75fe91a4afcc3dfc7c929fdc6fe9ca7914cb3": {
       "workers": {
-        "app/auth/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/auth/signin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/reader/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/auth/signup/page": "rsc",
         "app/auth/signin/page": "rsc",
         "app/reader/page": "rsc"
       }
     },
     "ef7f072390fcd5cad841615bf9f7d9c45e25e77f": {
       "workers": {
-        "app/auth/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/auth/signin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/reader/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/auth/signup/page": "rsc",
         "app/auth/signin/page": "rsc",
         "app/reader/page": "rsc"
       }
     },
     "fcbafbb5fea0e92999dfc062a5f0b3917b680855": {
       "workers": {
-        "app/auth/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/auth/signin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!",
         "app/reader/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fauth.ts%22%2C%5B%22signOut%22%2C%22signUp%22%2C%22resetPassword%22%2C%22updatePassword%22%2C%22signIn%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/auth/signup/page": "rsc",
         "app/auth/signin/page": "rsc",
         "app/reader/page": "rsc"
       }
     },
-    "109ffdf01ea223087b7d5d69a379beb2c228389a": {
+    "a5fc2bdb1cc2bb3ec46b36ad9abbc2f23b12c955": {
       "workers": {
-        "app/pricing/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fstripe.ts%22%2C%5B%22createCheckout%22%5D%5D%5D&__client_imported__=!"
+        "app/reader/book/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Freader.ts%22%2C%5B%22updateReadingProgress%22%2C%22getBookProgress%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/pricing/page": "rsc"
+        "app/reader/book/[id]/page": "action-browser"
+      }
+    },
+    "eea884c7da8027b0556983cc5ef013be9fc11a9a": {
+      "workers": {
+        "app/reader/book/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Freader.ts%22%2C%5B%22updateReadingProgress%22%2C%22getBookProgress%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/reader/book/[id]/page": "action-browser"
+      }
+    },
+    "83a3b9dd5614c25d4abafd92debc191b20cd7d9d": {
+      "workers": {
+        "app/reader/ai-summary/[bookId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fai.ts%22%2C%5B%22generateBookSummary%22%2C%22generateDiscussionQuestions%22%5D%5D%5D&__client_imported__=true!",
+        "app/reader/ai-tools/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fai.ts%22%2C%5B%22generateBookSummary%22%2C%22generateDiscussionQuestions%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/reader/ai-summary/[bookId]/page": "action-browser",
+        "app/reader/ai-tools/page": "action-browser"
+      }
+    },
+    "aa421d9236b7e0ce92c406d4befc0e3eadaa58d2": {
+      "workers": {
+        "app/reader/ai-summary/[bookId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fai.ts%22%2C%5B%22generateBookSummary%22%2C%22generateDiscussionQuestions%22%5D%5D%5D&__client_imported__=true!",
+        "app/reader/ai-tools/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FVibeMVP_BookShop%2Fapp%2Factions%2Fai.ts%22%2C%5B%22generateBookSummary%22%2C%22generateDiscussionQuestions%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/reader/ai-summary/[bookId]/page": "action-browser",
+        "app/reader/ai-tools/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "w0YXu8YLoXGQO0R1zt/FkuIS9ZSv6c6203LveHIiksA="
+  "encryptionKey": "+cVS8mLY4T02cp++ornLxgdbXIBf60+mueXKj3kgQMM="
 }

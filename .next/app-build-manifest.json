@@ -11,11 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/auth/signup/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/auth/signup/page.js"
-    ],
     "/auth/signin/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -26,15 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/reader/page.js"
     ],
-    "/pricing/page": [
+    "/reader/book/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pricing/page.js"
+      "static/chunks/app/reader/book/[id]/page.js"
     ],
-    "/books/page": [
+    "/reader/ai-summary/[bookId]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/books/page.js"
+      "static/chunks/app/reader/ai-summary/[bookId]/page.js"
+    ],
+    "/reader/ai-tools/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/reader/ai-tools/page.js"
     ]
   }
 }
